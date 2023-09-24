@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Outfit', sans-serif; 
+font-family: 'Fraunces', serif;
+font-family: 'Outfit', sans-serif; */
+
+body {
+    width: 1440px;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 600px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    flex: 1;
+}
+
+.parfum {
+    width: 300px;
+    height: 450px;
+    border-radius: 15px 0 0 15px;
+}
+
+.info {
+    background-color: hsl(0, 0%, 100%);
+    height: 100%;
+    flex: 1;
+    padding: 5px 35px 0 35px;
+    border-radius: 0 15px 15px 0;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+}
+
+h3, p {
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+
+p {
+    font-size: 14px;
+
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+}
+
+.text {
+    margin: 0;
+    padding: 0;
+}
+
+.price>p:first-of-type {
+    color: hsl(158, 36%, 37%);
+    font-size: 32px;
+    font-family: 'Fraunces', serif;
+    margin: 20px 0;
+}
+
+.price>p:last-of-type {
+    text-decoration: line-through;
+}
+
+.cart {
+    margin-right: 10px;
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    width: 250px;
+    padding: 15px;
+    border-style: none;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background-color: hsl(158, 36%, 25%);
+    cursor: pointer;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
